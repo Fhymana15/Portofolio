@@ -1279,14 +1279,14 @@ footer {
         height: auto;
         padding: 28px 22px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
         gap: 15px;
     }
 
     .judul-contact {
-        width: 48%;
+        width: 100%;
         display: block;
         padding: 0;
     }
@@ -1305,10 +1305,11 @@ footer {
     }
 
     .form {
-        width: 52%;
+        width: 100%;
         display: flex;
-        align-items: flex-start;
-        justify-content: flex-end;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
     }
 
     form {
