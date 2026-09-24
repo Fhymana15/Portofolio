@@ -1082,7 +1082,7 @@ footer {
     }
 
     .skill1 br {
-        display: none;
+        display: block;
     }
 
     .skill1 p {
